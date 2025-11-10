@@ -14,13 +14,14 @@ matplotlib==3.10.7
     # via
     #   project-infnet-algoritmos-de-inteligencia-artificial-para-clusterizacao-25e4-2 (pyproject.toml)
     #   seaborn
-numpy==2.3.4
+numpy==1.26.4
     # via
     #   project-infnet-algoritmos-de-inteligencia-artificial-para-clusterizacao-25e4-2 (pyproject.toml)
     #   contourpy
     #   matplotlib
     #   pandas
     #   scikit-learn
+    #   scikit-learn-extra
     #   scipy
     #   seaborn
 packaging==25.0
@@ -40,9 +41,15 @@ python-dateutil==2.9.0.post0
 pytz==2025.2
     # via pandas
 scikit-learn==1.7.2
+    # via
+    #   project-infnet-algoritmos-de-inteligencia-artificial-para-clusterizacao-25e4-2 (pyproject.toml)
+    #   scikit-learn-extra
+scikit-learn-extra==0.3.0
     # via project-infnet-algoritmos-de-inteligencia-artificial-para-clusterizacao-25e4-2 (pyproject.toml)
 scipy==1.16.3
-    # via scikit-learn
+    # via
+    #   scikit-learn
+    #   scikit-learn-extra
 seaborn==0.13.2
     # via project-infnet-algoritmos-de-inteligencia-artificial-para-clusterizacao-25e4-2 (pyproject.toml)
 six==1.17.0
